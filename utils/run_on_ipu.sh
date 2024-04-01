@@ -5,7 +5,7 @@
 
 # duplicate of mlir-aie/utils/run_on_ipu.sh
 
-FIRMWARE_DIR=/lib/firmware/amdipu/1502
+FIRMWARE_DIR=/lib/firmware/amdnpu/1502_00
 XRT_DIR=/opt/xilinx/xrt
 source $XRT_DIR/setup.sh
 
