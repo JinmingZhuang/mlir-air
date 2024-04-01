@@ -33,7 +33,7 @@ for f in "$@"; do
     extension="${f##*.}"
     if [ x"$extension" = x"xclbin" ]; then
       XCLBIN_FN="$filename"
-      $XRT_DIR/amdxdna/setup_xclbin_firmware.sh -dev Phoenix -xclbin $XCLBIN_FN
+      $XRT_DIR/amdxdna/setup_xclbin_firmware.sh -dev NPU1 -xclbin $XCLBIN_FN
     fi
   fi
 done
