@@ -91,9 +91,10 @@ jobs:
             -DAIE_INCLUDE_INTEGRATION_TESTS=OFF
 
           ninja install
+          ninja check-aie
           popd
 
-          rm -rf build
+          # rm -rf build
           popd
 
       # Build the repo test target in debug mode to build and test.
